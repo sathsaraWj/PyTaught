@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytaught"
+version = "1.0.0"
+description = "A minimal ML/DL framework written in pure Python and NumPy."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+  { name = "Sathsara Wijekulasuriya" }
+]
+keywords = ["machine learning", "deep learning", "framework", "mlp", "linear regression"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "numpy",
+  "pandas"
+]
+
+[project.scripts]
+pytaught = "pytaught.pytaught:main"
