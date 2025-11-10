@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pytaught"
-version = "1.0.0"
+version = "1.2.0"
 description = "A minimal ML/DL framework written in pure Python and NumPy."
 readme = "README.md"
 license = { text = "MIT" }
@@ -24,4 +24,4 @@ dependencies = [
 ]
 
 [project.scripts]
-pytaught = "pytaught.pytaught:main"
+pytaught = "pytaught.cli:main"
